@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TryCatchBuilder")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple TryCatch wrapper to avoid code pullution with excecption handling")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Human Action LLC")]
 [assembly: AssemblyProduct("TryCatchBuilder")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
