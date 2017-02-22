@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchBuilder", "TryCatchBuilder\TryCatchBuilder.csproj", "{0795C1EC-BD47-4F95-ADFD-CD8DF1F7E74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchBuilderTests", "TryCatchBuilderTests\TryCatchBuilderTests.csproj", "{D24464EB-17BC-4DDE-A2C9-6C2F5FB64DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0795C1EC-BD47-4F95-ADFD-CD8DF1F7E74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795C1EC-BD47-4F95-ADFD-CD8DF1F7E74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795C1EC-BD47-4F95-ADFD-CD8DF1F7E74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795C1EC-BD47-4F95-ADFD-CD8DF1F7E74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24464EB-17BC-4DDE-A2C9-6C2F5FB64DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24464EB-17BC-4DDE-A2C9-6C2F5FB64DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24464EB-17BC-4DDE-A2C9-6C2F5FB64DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24464EB-17BC-4DDE-A2C9-6C2F5FB64DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
