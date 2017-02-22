@@ -5,16 +5,20 @@ Nuget Package: https://www.nuget.org/packages/TryCatchBuilder/
 
 ## How to use:
 
-`Func<int> wrappedFunction = TryCatchBuilder<int>
+```C#
+Func<int> wrappedFunction = TryCatchBuilder<int>
 				.Try(functionToWrap)
 				.Catch<Exception>(actionOnFail)
 				.Build();
-wrappedFunction();`
+wrappedFunction();
+```
 
-`Func<int> wrappedFunction = TryCatchBuilder<int>
+```C#
+Func<int> wrappedFunction = TryCatchBuilder<int>
 				.Try(functionToWrap)
 				.Catch<Exception>(JustCountTheRetries)
 				.ReTry(numberofRetries, TimeSpan.FromMilliseconds(50), TimeSpan.FromMilliseconds(1))
 				.OnRepeatedFailure(actionOnRepeatedFail)
 				.Build();
-wrappedFunction();`
+wrappedFunction();
+```
