@@ -17,7 +17,7 @@ wrappedFunction();
 Func<int> wrappedFunction = TryCatchBuilder<int>
 				.Try(functionToWrap)
 				.Catch<Exception>(JustCountTheRetries)
-				.ReTry(numberofRetries, TimeSpan.FromMilliseconds(50), TimeSpan.FromMilliseconds(1))
+				.ReTry(numberofRetries, baseRetryInterval: TimeSpan.FromMilliseconds(50), retryIncrement: TimeSpan.FromMilliseconds(1))
 				.OnRepeatedFailure(actionOnRepeatedFail)
 				.Build();
 wrappedFunction();
